@@ -1,0 +1,9 @@
+langchain 
+python-docx 
+pypdf2 
+pdfplumber 
+pdf2image 
+pytesseract 
+chromadb 
+sentence-transformers 
+unstructured
