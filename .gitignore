@@ -2,4 +2,7 @@
 data/processed/
 *.env
 notes.md
-data/raw/
+data/raw/.venv/
+*.so
+*.so.*
+*.cpython-*.so
