@@ -1,4 +1,5 @@
 langchain 
+langchain-community
 python-docx 
 pypdf2 
 pdfplumber 

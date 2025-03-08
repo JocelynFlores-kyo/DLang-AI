@@ -1,12 +1,13 @@
-# document_loader.py
+# 文档解析
 import pdfplumber
 from pdf2image import convert_from_path
 import pytesseract
 from docx import Document
+from typing import List
 
-def load_document(file_path: str):
+def load_document(file_path: str) -> List[dict]:
     """统一文档加载入口"""
-    if file_path.endswith(".docx"):
+    if file_path.endswith(".docx") or file_path.endswith('.doc'):
         return _parse_docx(file_path)
     elif file_path.endswith(".pdf"):
         return _parse_pdf(file_path)
